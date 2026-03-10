@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="brand">
+          <a class="brand-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+          <div class="brand-subtitle">{{ site.description }}</div>
+        </div>
+
+        <nav class="nav">
+          {% if site.nav %}
+            {% for item in site.nav %}
+              <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endfor %}
+          {% endif %}
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="content">
+        {{ content }}
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-line">
+          &copy; {{ "now" | date: "%Y" }} {{ site.title }} ·
+          <a href="{{ site.profiles.scholar }}">Google Scholar</a> ·
+          <a href="{{ site.profiles.github }}">GitHub</a> ·
+          <a href="{{ site.profiles.docker }}">Docker</a>
+        </div>
+        <div class="footer-note">
+          Built on GitHub Pages · Jekyll
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

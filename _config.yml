@@ -1,3 +1,31 @@
-theme: jekyll-theme-minimal
 title: Jahnavi Kachhia
-description: Global Product Owner, AI & ML at Abbott
+description: AI product leader in healthcare and applied machine learning across research, reviewing, and public speaking.
+
+url: "https://jahnavik186.github.io"
+baseurl: ""
+
+nav:
+  - title: About
+    url: /about/
+  - title: Publications
+    url: /publications/
+  - title: Speaking
+    url: /speaking/
+  - title: Service
+    url: /service/
+  - title: Media
+    url: /media/
+
+profiles:
+  scholar: "https://scholar.google.com/citations?user=bWMslkYAAAAJ&hl=en"
+  github: "https://github.com/jahnavik186"
+  docker: "https://hub.docker.com/u/jahnavik186"
+  scholar_citations: "43"
+  scholar_articles: "10"
+  github_repositories: "5"
+
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
+permalink: pretty
