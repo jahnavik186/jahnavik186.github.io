@@ -40,6 +40,9 @@ and a [Women in Tech Network global ambassador listing](https://www.womentech.ne
 - [Docker Hub Profile]({{ site.profiles.docker }})
 - [LinkedIn]({{ site.profiles.linkedin }})
 
+These public profiles strengthen visibility across scholarship, open-source work, professional networking,
+and applied AI project delivery.
+
 **Certifications**
 - [Stanford Machine Learning](https://www.coursera.org/account/accomplishments/verify/CW8B76P6MV2P?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate&utm_content=cert_image)
 - [Getting Started with AWS Machine Learning](https://www.coursera.org/account/accomplishments/verify/RMPAXG5NBGL4?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button)

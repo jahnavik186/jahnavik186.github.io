@@ -38,6 +38,7 @@ title: Home
     <nav class="section-nav">
       <a href="#about">About</a>
       <a href="#research">Research</a>
+      <a href="#profiles">Profiles</a>
       <a href="#service">Service</a>
       <a href="#speaking">Speaking</a>
       <a href="#media">Media</a>
@@ -94,6 +95,19 @@ title: Home
         <li><a href="https://ticresearch.com/">AI-Enabled Predictive Analytics and Optimization of Renewable Energy Integration in Advanced Energy Storage Systems</a></li>
       </ul>
       <p><a href="{{ '/publications/' | relative_url }}">View the full publications page</a></p>
+    </section>
+
+    <section id="profiles" class="content-block">
+      <h2>Professional Profiles and Public Visibility</h2>
+      <ul>
+        <li><a href="{{ site.profiles.scholar }}">Google Scholar</a> - citation record, publication visibility, and scholarly profile</li>
+        <li><a href="{{ site.profiles.github }}">GitHub</a> - code repositories, project visibility, and technical portfolio</li>
+        <li><a href="{{ site.profiles.docker }}">Docker Hub</a> - published containers and applied machine learning artifact visibility</li>
+        <li><a href="{{ site.profiles.linkedin }}">LinkedIn</a> - professional profile, speaking visibility, and career-facing public presence</li>
+      </ul>
+      <p>
+        Additional public profiles such as ORCID and ResearchGate can also be added here once those exact profile links are available.
+      </p>
     </section>
 
     <section id="service" class="content-block">
