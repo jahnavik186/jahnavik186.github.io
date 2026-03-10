@@ -21,9 +21,14 @@ profiles:
   github: "https://github.com/jahnavik186"
   docker: "https://hub.docker.com/u/jahnavik186"
   linkedin: "https://www.linkedin.com/in/jk186/"
+  researchgate: "https://www.researchgate.net/profile/Jahnavi-Kachhia-2?ev=hdr_xprf"
+  orcid: "https://orcid.org/my-orcid?orcid=0009-0000-5870-5132"
   scholar_citations: "43"
   scholar_articles: "10"
-  github_repositories: "5"
+  github_repositories: "6"
+  github_followers: "14"
+  github_following: "0"
+  github_stars: "2"
 analytics:
   ga4: "G-0J6QQ8KBE7"
 

@@ -20,6 +20,7 @@ title: Home
         <li>{{ site.profiles.scholar_citations }} Google Scholar citations</li>
         <li>{{ site.profiles.scholar_articles }} scholarly articles</li>
         <li>{{ site.profiles.github_repositories }} GitHub repositories</li>
+        <li>{{ site.profiles.github_followers }} GitHub followers</li>
         <li>Program committee, reviewing, speaking, and hackathon judging across 2025-2026</li>
       </ul>
     </div>
@@ -31,6 +32,8 @@ title: Home
         <li><a href="{{ site.profiles.github }}">GitHub</a></li>
         <li><a href="{{ site.profiles.docker }}">Docker Hub Profile</a></li>
         <li><a href="{{ site.profiles.linkedin }}">LinkedIn</a></li>
+        <li><a href="{{ site.profiles.researchgate }}">ResearchGate</a></li>
+        <li><a href="{{ site.profiles.orcid }}">ORCID</a></li>
         <li><a href="mailto:jahnavik186@gmail.com">jahnavik186@gmail.com</a></li>
       </ul>
     </div>
@@ -81,6 +84,14 @@ title: Home
         <strong>{{ site.profiles.scholar_articles }}</strong>
         <span>Total articles</span>
       </div>
+      <div class="stat-card">
+        <strong>{{ site.profiles.github_repositories }}</strong>
+        <span>GitHub repositories</span>
+      </div>
+      <div class="stat-card">
+        <strong>{{ site.profiles.github_followers }}</strong>
+        <span>GitHub followers</span>
+      </div>
       </div>
       <ul>
         <li><a href="https://onlinelibrary.wiley.com/doi/full/10.1155/2015/629797">Logarithmic slots antennas using substrate integrated waveguide</a></li>
@@ -104,10 +115,12 @@ title: Home
         <li><a href="{{ site.profiles.github }}">GitHub</a> - code repositories, project visibility, and technical portfolio</li>
         <li><a href="{{ site.profiles.docker }}">Docker Hub</a> - published containers and applied machine learning artifact visibility</li>
         <li><a href="{{ site.profiles.linkedin }}">LinkedIn</a> - professional profile, speaking visibility, and career-facing public presence</li>
+        <li><a href="{{ site.profiles.researchgate }}">ResearchGate</a> - academic profile visibility and research discovery</li>
+        <li><a href="{{ site.profiles.orcid }}">ORCID</a> - persistent researcher identity and scholarly record linkage</li>
       </ul>
-      <p>
-        Additional public profiles such as ORCID and ResearchGate can also be added here once those exact profile links are available.
-      </p>
+      <div class="kv">
+        <div>GitHub Stats</div><div>{{ site.profiles.github_repositories }} repositories, {{ site.profiles.github_followers }} followers, {{ site.profiles.github_following }} following, {{ site.profiles.github_stars }} starred repositories</div>
+      </div>
     </section>
 
     <section id="service" class="content-block">

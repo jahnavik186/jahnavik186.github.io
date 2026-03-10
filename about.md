@@ -39,6 +39,8 @@ and a [Women in Tech Network global ambassador listing](https://www.womentech.ne
 - [GitHub]({{ site.profiles.github }})
 - [Docker Hub Profile]({{ site.profiles.docker }})
 - [LinkedIn]({{ site.profiles.linkedin }})
+- [ResearchGate]({{ site.profiles.researchgate }})
+- [ORCID]({{ site.profiles.orcid }})
 
 These public profiles strengthen visibility across scholarship, open-source work, professional networking,
 and applied AI project delivery.
