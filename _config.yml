@@ -23,6 +23,8 @@ profiles:
   scholar_citations: "43"
   scholar_articles: "10"
   github_repositories: "5"
+analytics:
+  ga4: "G-0J6QQ8KBE7"
 
 plugins:
   - jekyll-feed
