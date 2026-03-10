@@ -16,6 +16,24 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', '{{ site.analytics.ga4 }}');
+
+    document.addEventListener('click', function(event) {
+      var link = event.target.closest('a');
+      if (!link || !link.href) return;
+
+      var href = link.href;
+      var isMailto = href.indexOf('mailto:') === 0;
+      var isExternal = link.host && link.host !== window.location.host;
+
+      if (!isExternal && !isMailto) return;
+
+      gtag('event', 'outbound_click', {
+        link_url: href,
+        link_domain: link.host || 'mailto',
+        link_text: (link.textContent || '').trim().slice(0, 100),
+        page_location: window.location.href
+      });
+    }, true);
   </script>
   {% endif %}
 </head>

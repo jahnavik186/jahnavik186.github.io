@@ -30,6 +30,7 @@ title: Home
         <li><a href="{{ site.profiles.scholar }}">Google Scholar</a></li>
         <li><a href="{{ site.profiles.github }}">GitHub</a></li>
         <li><a href="{{ site.profiles.docker }}">Docker Hub Profile</a></li>
+        <li><a href="{{ site.profiles.linkedin }}">LinkedIn</a></li>
         <li><a href="mailto:jahnavik186@gmail.com">jahnavik186@gmail.com</a></li>
       </ul>
     </div>
@@ -40,6 +41,7 @@ title: Home
       <a href="#service">Service</a>
       <a href="#speaking">Speaking</a>
       <a href="#media">Media</a>
+      <a href="#analytics">Analytics</a>
       <a href="#certifications">Certifications</a>
     </nav>
   </aside>
@@ -158,6 +160,24 @@ title: Home
         <li><a href="https://www.usatoday.com/story/tech/2024/12/16/meta-ray-ban-smart-glasses-live-translation/77035096007/">USA Today: Meta Ray-Ban smart glasses live translation</a></li>
       </ul>
       <p><a href="{{ '/media/' | relative_url }}">View the full media page</a></p>
+    </section>
+
+    <section id="analytics" class="content-block">
+      <h2>Traffic and Profile Link Tracking</h2>
+      <p>
+        This website tracks incoming traffic through Google Analytics 4, including source, medium,
+        campaign, geography, device type, and page-level visits.
+      </p>
+      <p>
+        It also tracks outbound clicks to key external profiles such as Google Scholar, GitHub,
+        Docker Hub, LinkedIn, and email links so I can understand which profile destinations
+        visitors use most often.
+      </p>
+      <p>
+        External platforms such as LinkedIn, Google Scholar, ResearchGate, and ORCID do not provide
+        this website with their internal profile-view counts, so those exact visitor numbers cannot
+        be shown here directly.
+      </p>
     </section>
 
     <section id="certifications" class="content-block">

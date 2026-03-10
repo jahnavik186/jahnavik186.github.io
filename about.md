@@ -38,6 +38,7 @@ and a [Women in Tech Network global ambassador listing](https://www.womentech.ne
 - [Google Scholar]({{ site.profiles.scholar }})
 - [GitHub]({{ site.profiles.github }})
 - [Docker Hub Profile]({{ site.profiles.docker }})
+- [LinkedIn]({{ site.profiles.linkedin }})
 
 **Certifications**
 - [Stanford Machine Learning](https://www.coursera.org/account/accomplishments/verify/CW8B76P6MV2P?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate&utm_content=cert_image)
