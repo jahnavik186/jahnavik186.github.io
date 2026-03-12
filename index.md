@@ -20,7 +20,7 @@ title: Home
         <li>{{ site.profiles.scholar_citations }} Google Scholar citations</li>
         <li>{{ site.profiles.scholar_articles }} scholarly articles</li>
         <li>{{ site.profiles.github_repositories }} GitHub repositories</li>
-        <li>{{ site.profiles.github_followers }} GitHub followers</li>
+        <li>{{ site.profiles.github_total_forks }} total GitHub forks</li>
         <li>Program committee, reviewing, speaking, and hackathon judging across 2025-2026</li>
       </ul>
     </div>
@@ -89,8 +89,8 @@ title: Home
         <span>GitHub repositories</span>
       </div>
       <div class="stat-card">
-        <strong>{{ site.profiles.github_followers }}</strong>
-        <span>GitHub followers</span>
+        <strong>{{ site.profiles.github_total_forks }}</strong>
+        <span>Total GitHub forks</span>
       </div>
       </div>
       <ul>
@@ -119,7 +119,7 @@ title: Home
         <li><a href="{{ site.profiles.orcid }}">ORCID</a> - persistent researcher identity and scholarly record linkage</li>
       </ul>
       <div class="kv">
-        <div>GitHub Stats</div><div>{{ site.profiles.github_repositories }} repositories, {{ site.profiles.github_followers }} followers, {{ site.profiles.github_following }} following, {{ site.profiles.github_stars }} starred repositories</div>
+        <div>GitHub Stats</div><div>{{ site.profiles.github_repositories }} repositories, {{ site.profiles.github_total_forks }} total forks, {{ site.profiles.github_following }} following, {{ site.profiles.github_stars }} starred repositories</div>
       </div>
     </section>
 
