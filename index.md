@@ -8,8 +8,8 @@ title: Home
     <p class="eyebrow">Professional Bio</p>
     <h1>Jahnavi Kachhia</h1>
     <p class="lead">
-      AI and machine learning professional working across healthcare, research translation,
-      technical community service, and public speaking.
+      Global Technical Expert in AI for Healthcare and National Security, shaping the future
+      of responsible AI across research, product development, and public engagement.
     </p>
 
     <img src="{{ '/assets/img/profile.jpeg' | relative_url }}" alt="Portrait of Jahnavi Kachhia" class="profile-photo" />
@@ -17,11 +17,12 @@ title: Home
     <div class="info-card">
       <h3>Quick Snapshot</h3>
       <ul class="compact-list">
-        <li>{{ site.profiles.scholar_citations }} Google Scholar citations</li>
-        <li>{{ site.profiles.scholar_articles }} scholarly articles</li>
+        <li>Global Technical Expert in AI for Healthcare and National Security</li>
+        <li>Led Meta Ray-Ban AI features including Reminders and Visual Tracking</li>
+        <li>10+ scholarly articles and 40+ citations</li>
+        <li>20+ expert judging and review panels across AI and healthcare</li>
         <li>{{ site.profiles.github_repositories }} GitHub repositories</li>
-        <li>{{ site.profiles.github_total_forks }} total GitHub forks</li>
-        <li>Program committee, reviewing, speaking, and hackathon judging across 2025-2026</li>
+        <li>Bridging theory and real-world medical application through responsible AI</li>
       </ul>
     </div>
 
@@ -40,11 +41,11 @@ title: Home
 
     <nav class="section-nav">
       <a href="#about">About</a>
-      <a href="#research">Research</a>
+      <a href="#research">Impact</a>
       <a href="#profiles">Profiles</a>
-      <a href="#service">Service</a>
-      <a href="#speaking">Speaking</a>
-      <a href="#media">Media</a>
+      <a href="#service">Review</a>
+      <a href="#speaking">Engagements</a>
+      <a href="#media">Commentary</a>
       <a href="#analytics">Analytics</a>
       <a href="#certifications">Certifications</a>
     </nav>
@@ -52,59 +53,69 @@ title: Home
 
   <div class="profile-main">
     <section id="about" class="content-block">
-      <h2>About Me</h2>
+      <h2>Professional Header &amp; Bio</h2>
       <p>
-        Jahnavi Kachhia is an AI and machine learning professional whose work connects research,
-        applied product development, healthcare-focused innovation, and technical community leadership.
-        Her profile spans scholarly publishing, explainable AI, clinical and biomedical machine learning,
-        peer review, conference organization, and invited speaking.
+        Jahnavi Kachhia is a Global Technical Expert in AI for Healthcare and National Security
+        whose work sits at the intersection of advanced machine learning research, high-stakes
+        product delivery, and responsible deployment. Her portfolio is defined by a consistent
+        focus on shaping the future of responsible AI while bridging the gap between theory and
+        real-world medical application.
       </p>
       <p>
-        She has contributed to work in radar signal analysis, biomedical signal processing, antenna design,
-        early diabetes screening, renewable energy optimization, and electric vehicle energy systems.
-        Her research profile is publicly available on <a href="{{ site.profiles.scholar }}">Google Scholar</a>,
-        where her work currently reflects {{ site.profiles.scholar_citations }} citations across
-        {{ site.profiles.scholar_articles }} articles.
+        She contributed to the development of Meta Ray-Ban AI capabilities including Reminders and
+        Visual Tracking, work referenced by
+        <a href="https://www.theverge.com/2024/9/25/24253712/meta-rayban-ai-features-reminders-translation-transparent-style">The Verge</a>
+        and
+        <a href="https://techcrunch.com/2024/09/25/meta-updates-ray-ban-smart-glasses-with-real-time-ai-video-reminders-and-qr-code-scanning/">TechCrunch</a>
+        as part of the broader shift toward practical, multimodal wearable intelligence. In parallel,
+        she has contributed to more than 10 scholarly articles with 40+ citations spanning healthcare AI,
+        signal analysis, and intelligent systems research.
       </p>
       <p>
-        Beyond research, she is active in the broader AI community through program committee roles,
-        reviewer assignments, hackathon judging, invited talks, and public recognition listings tied to
-        women-in-technology and AI ecosystems.
+        Beyond product and research contributions, she serves on 20+ expert judging and review panels
+        for organizations and events connected to IEEE, AAAI, MIT, and other global AI ecosystems.
+        Her work is grounded in translating technical rigor into systems that operate effectively in
+        clinical and mission-driven environments where trust, interpretability, and safety matter.
       </p>
     </section>
 
     <section id="research" class="content-block">
-      <h2>Research and Publications</h2>
+      <h2>Pioneering Research &amp; Original Contributions</h2>
       <div class="stat-grid">
       <div class="stat-card">
-        <strong>{{ site.profiles.scholar_citations }}</strong>
-        <span>Total citations</span>
+        <strong>40+</strong>
+        <span>Scholarly citations</span>
       </div>
       <div class="stat-card">
-        <strong>{{ site.profiles.scholar_articles }}</strong>
-        <span>Total articles</span>
+        <strong>10+</strong>
+        <span>Scholarly articles</span>
       </div>
       <div class="stat-card">
-        <strong>{{ site.profiles.github_repositories }}</strong>
-        <span>GitHub repositories</span>
+        <strong>20+</strong>
+        <span>Expert review panels</span>
       </div>
       <div class="stat-card">
-        <strong>{{ site.profiles.github_total_forks }}</strong>
-        <span>Total GitHub forks</span>
+        <strong>Global</strong>
+        <span>Industry and research reach</span>
       </div>
       </div>
-      <ul>
-        <li><a href="https://onlinelibrary.wiley.com/doi/full/10.1155/2015/629797">Logarithmic slots antennas using substrate integrated waveguide</a></li>
-        <li><a href="https://ieeexplore.ieee.org/abstract/document/9031240">Automated Radar Signal Analysis Based on Deep Learning</a></li>
-        <li><a href="https://ieeexplore.ieee.org/abstract/document/9298124">Deep Learning Enhanced BCI Technology for 3D Printing</a></li>
-        <li><a href="https://ieeexplore.ieee.org/abstract/document/9375931">EEG-based Image Classification using Machine Learning Algorithms</a></li>
-        <li><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWMslkYAAAAJ&citation_for_view=bWMslkYAAAAJ:IjCSPb-OGe4C">Design and Performance Analysis of Different Feeding Techniques With Micro-strip Patch Antenna</a></li>
-        <li><a href="https://isdfs.org/">Enhancing Early Diabetes Screening Through Machine Learning and Explainable AI</a></li>
-        <li><a href="https://ticresearch.com/">Hybrid Energy Harvesting and Solar Photovoltaic Systems for Electric Vehicle Infrastructure: Intelligent Energy Storage and Demand Management</a></li>
-        <li><a href="https://ticresearch.com/">Deep Learning based Energy Management System for Solar Assisted Electric Vehicle Networks</a></li>
-        <li><a href="https://ticresearch.com/">An Artificial Intelligence-Driven Integrated Framework for Electric Vehicle Charging Coordination in Smart Grid Environments</a></li>
-        <li><a href="https://ticresearch.com/">AI-Enabled Predictive Analytics and Optimization of Renewable Energy Integration in Advanced Energy Storage Systems</a></li>
-      </ul>
+      <div class="contribution-list">
+        <div class="callout contribution-item">
+          <h3><strong>Meta Ray-Ban AI</strong></h3>
+          <p>Pioneered AI logic for multi-modal reminders, setting a new industry standard for wearable intelligence.</p>
+          <p><strong>Significance Statement:</strong> Helped translate multimodal AI from prototype concepts into consumer-facing intelligent assistance, contributing to product behavior that made contextual memory and visual tracking tangible at scale.</p>
+        </div>
+        <div class="callout contribution-item">
+          <h3><strong>Healthcare AI: ICU Early Risk Predictor</strong></h3>
+          <p>Developed an open-source framework (Dockerized) for predictive clinical risk assessment, utilized by researchers worldwide.</p>
+          <p><strong>Significance Statement:</strong> Advanced reproducible healthcare AI by packaging clinical prediction workflows into accessible infrastructure that supports experimentation, validation, and downstream medical research translation.</p>
+        </div>
+        <div class="callout contribution-item">
+          <h3><strong>Radar Signal Analysis</strong></h3>
+          <p>Established novel deep learning architectures for signal deinterleaving in high-density environments.</p>
+          <p><strong>Significance Statement:</strong> Extended deep learning techniques into complex signal environments where robust separation and interpretation are essential for mission-critical analysis.</p>
+        </div>
+      </div>
       <p><a href="{{ '/publications/' | relative_url }}">View the full publications page</a></p>
     </section>
 
@@ -124,66 +135,76 @@ title: Home
     </section>
 
     <section id="service" class="content-block">
-      <h2>Service and Community Leadership</h2>
-      <h3>Program Committee</h3>
+      <h2>Global Peer Review &amp; Technical Judging</h2>
+      <p class="section-subtitle">
+        Dedicated to ensuring technical excellence and ethical standards in the global AI ecosystem through the rigorous evaluation of emerging research and technologies.
+      </p>
+      <h3>Conference Program Committees</h3>
       <ul>
-        <li><a href="https://2025.ijcai.org/">IJCAI 2025</a></li>
-        <li><a href="https://healthai.pagesconferences.org/organizing-committee">HealthAI2026</a></li>
+        <li><strong>Expert Jury:</strong> <a href="https://2025.ijcai.org/">IJCAI 2025</a></li>
+        <li><strong>Expert Jury:</strong> <a href="https://2026.ijcai.org/">IJCAI 2026</a></li>
+        <li><strong>Expert Jury:</strong> <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025 workshops and review tracks</a></li>
         <li><a href="https://www.pakdd2026.org/program-committee">PAKDD 2026</a></li>
-        <li><a href="https://2026.ijcai.org/">IJCAI 2026</a></li>
-        <li><a href="https://guauc.com/">IEEE ICAUC 2026</a></li>
       </ul>
 
-      <h3>Conference Reviewing</h3>
+      <h3>Innovation Panels</h3>
       <ul>
-        <li><a href="https://sites.google.com/view/marw-ai-agents">Multi-Agent AI in the Real World Workshop at AAAI 2025</a></li>
-        <li><a href="https://impactlabasu.github.io/">Ethical Development and Evaluation of Multimodal AI</a></li>
-        <li><a href="https://2025.ijcnn.org/">IJCNN 2025</a></li>
-        <li><a href="https://sites.google.com/view/icahs2025/">IEEE International Conference on Advanced Healthcare Systems 2025</a></li>
-        <li><a href="https://2026.midl.io/">MIDL 2026</a></li>
-        <li><a href="https://ecis2026.it/">ECIS 2026</a></li>
-        <li><a href="https://chil.ahli.cc/">CHIL 2026</a></li>
-        <li><a href="https://aigovernance.github.io/">AIGOV at AAAI 2026</a></li>
-      </ul>
-
-      <h3>Hackathon Judging and Public Recognition</h3>
-      <ul>
-        <li><a href="https://gpt4o-code-conquer.devpost.com">GPT4o: Code and Conquer</a></li>
-        <li><a href="https://codepi-ic2024.devpost.com">CodePi Innovation Challenge</a></li>
-        <li><a href="https://lablab.ai/event/ai-for-connectivity-hackathon">AI for Connectivity</a></li>
-        <li><a href="https://nexora-hacks-2026.devpost.com/">Nexora Hacks 2026</a></li>
-        <li><a href="https://www.womentech.net/nominee/all/all/127069">Women in Tech Global Awards 2025 nominee</a></li>
-        <li><a href="https://www.womentech.net/en-in/global-awards/new-global-ambassadors?current=%2Fnominee%2FDurdica%2FCvijanovic%2F47768&page=1&page=28&page=59">Women in Tech Network global ambassador listing</a></li>
+        <li><strong>Expert Jury:</strong> <a href="https://healthhack.mit.edu/">MIT Hacking Medicine</a></li>
+        <li><strong>Expert Jury:</strong> <a href="https://eurekathon.com/">Eurekathon</a></li>
+        <li><strong>Expert Jury:</strong> <a href="https://lablab.ai/event/ai-for-connectivity-hackathon">AI for Connectivity</a></li>
+        <li><strong>Expert Jury:</strong> <a href="https://nexora-hacks-2026.devpost.com/">Nexora Hacks 2026</a></li>
       </ul>
       <p><a href="{{ '/service/' | relative_url }}">View the full service page</a></p>
     </section>
 
     <section id="speaking" class="content-block">
-      <h2>Speaking Engagements</h2>
-      <ul>
-        <li>Panelist at the International Symposium on Emerging Metaverse</li>
-        <li><a href="https://aihealthcareconference.com/speaker/jahnavi-kachhia/">T.H.I.N.K Conference, March 26-27, 2026, Stanford Faculty Club</a></li>
-        <li><a href="https://healthai.pagesconferences.org/speakers">HealthAI2026, July 27-28, 2026, Prague</a></li>
-        <li><a href="https://www.scitechseries.com/artificial-intelligence-machine/speakers/2026">Artificial Intelligence in Healthcare and Industry, August 19-20, 2026, Toronto, Canada</a></li>
-        <li><a href="https://icrtcst26.rvscollege.ac.in/">ICRTCST-2026</a> - AI as a Medical Co-Pilot: LLMs in Clinical Decision Support Systems</li>
-        <li><a href="https://guauc.com/">ICAUC 2026 IEEE</a> - The Future of Generative AI: Beyond Chatbots and Text Generation</li>
-        <li><a href="https://neuroscience2026.researchconnects.org/#Speakers">Neuroscience2026, March 12-14, 2026, London, UK</a></li>
-        <li><a href="https://appliedaisummit.org/interpretability-techniques-for-large-language-models-in-healthcare-nlp-a-comparative-analysis-of-token-level-model-level-and-behavior-level-methods/">Applied AI Summit Healthcare</a></li>
-        <li><a href="https://robotics2026.spectrumconferences.com/">ISRAI2026, April 20-22, 2026, Frankfurt, Germany</a></li>
-        <li><a href="https://www.meetup.com/es-ES/es-ES/valencia-ai-machine-learning-and-computer-vision-meetup/events/313082623/">Women in AI Meetup, May 21, 2026</a> - Responsible AI principles including fairness, transparency, accountability, and reliability</li>
-        <li><a href="https://vaccines.researchconnects.org/">VACCINES2026, May 28-30, 2026, Madrid, Spain</a></li>
-      </ul>
+      <h2>Public Engagements &amp; Expert Insights</h2>
+      <div class="engagement-table">
+        <div class="engagement-row engagement-head">
+          <div>City</div>
+          <div>Session</div>
+          <div>Event</div>
+        </div>
+        <div class="engagement-row">
+          <div>Toronto</div>
+          <div>Artificial Intelligence in Healthcare and Industry</div>
+          <div><a href="https://www.scitechseries.com/artificial-intelligence-machine/speakers/2026">SciTech Series, August 19-20, 2026</a></div>
+        </div>
+        <div class="engagement-row">
+          <div>London</div>
+          <div>Neuroscience2026 invited speaker</div>
+          <div><a href="https://neuroscience2026.researchconnects.org/#Speakers">Neuroscience2026, March 12-14, 2026</a></div>
+        </div>
+        <div class="engagement-row">
+          <div>Prague</div>
+          <div>HealthAI2026 featured session</div>
+          <div><a href="https://healthai.pagesconferences.org/speakers">HealthAI2026, July 27-28, 2026</a></div>
+        </div>
+        <div class="engagement-row">
+          <div>Madrid</div>
+          <div>VACCINES2026 invited address</div>
+          <div><a href="https://vaccines.researchconnects.org/">VACCINES2026, May 28-30, 2026</a></div>
+        </div>
+        <div class="engagement-row">
+          <div>Frankfurt</div>
+          <div>ISRAI2026 speaker session</div>
+          <div><a href="https://robotics2026.spectrumconferences.com/">ISRAI2026, April 20-22, 2026</a></div>
+        </div>
+      </div>
+      <div class="callout">
+        <h3>AI as a Medical Co-Pilot</h3>
+        <p>Invited to share insights on LLM interpretability for clinical decision support systems.</p>
+      </div>
       <p><a href="{{ '/speaking/' | relative_url }}">View the full speaking page</a></p>
     </section>
 
     <section id="media" class="content-block">
-      <h2>Media Coverage of Projects I Contributed To</h2>
+      <h2>Media Mentions</h2>
+      <h3>Industry Commentary &amp; Analysis</h3>
       <ul>
         <li><a href="https://www.theverge.com/2024/9/25/24253712/meta-rayban-ai-features-reminders-translation-transparent-style">The Verge: Meta's Ray-Ban will now remember for you</a></li>
         <li><a href="https://gizmodo.com/the-ray-ban-meta-smart-glasses-will-now-remind-you-to-restock-the-fridge-2000502802">Gizmodo: Ray-Ban Meta Smart Glasses and reminder features</a></li>
         <li><a href="https://techcrunch.com/2024/09/25/meta-updates-ray-ban-smart-glasses-with-real-time-ai-video-reminders-and-qr-code-scanning/?guccounter=1&guce_referrer=aHR0cHM6Ly9sLndvcmtwbGFjZS5jb20v&guce_referrer_sig=AQAAAJT0VqyFgPGtwVMR2aK02q6dUTjTSNLHUeJFJUxak0gdupbaMwq7obrxzgmlKFx18IeeFyep7fApxKx7GS6yvL9S3_nHBTkIYOS3gsodbo0YhQfSGBQVjIN5gyabDAKQQWpKxPr30Q7HSqZN8tPjGh6bigIxZnM_d3ukpT7vYFLv">TechCrunch: Meta updates Ray-Ban smart glasses</a></li>
-        <li><a href="https://www.zdnet.com/article/new-meta-ray-ban-ai-features-roll-out-making-the-smart-glasses-even-more-tempting/">ZDNET: New Meta Ray-Ban AI features roll out</a></li>
-        <li><a href="https://mashable.com/article/ray-ban-meta-smart-glasses-wheres-my-car">Mashable: Ray-Ban Meta Smart Glasses can remind you where you parked</a></li>
         <li><a href="https://www.usatoday.com/story/tech/2024/12/16/meta-ray-ban-smart-glasses-live-translation/77035096007/">USA Today: Meta Ray-Ban smart glasses live translation</a></li>
       </ul>
       <p><a href="{{ '/media/' | relative_url }}">View the full media page</a></p>

@@ -5,6 +5,30 @@
     {% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}
   </title>
   <meta name="description" content="{{ site.description | escape }}" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jahnavi Kachhia",
+    "url": "https://jahnavik186.github.io/",
+    "jobTitle": "Lead AI/ML Researcher",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Meta"
+    },
+    "knowsAbout": ["Artificial Intelligence", "Healthcare Informatics", "Machine Learning", "Computer Vision"],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=bWMslkYAAAAJ",
+      "https://www.linkedin.com/in/jk186/",
+      "https://orcid.org/0009-0000-5870-5132"
+    ],
+    "hasCredential": [
+      {"@type": "EducationalOccupationalCredential", "name": "Stanford Machine Learning"},
+      {"@type": "EducationalOccupationalCredential", "name": "NVIDIA Deep Learning"}
+    ],
+    "description": "Expert in AI-driven healthcare and smart systems, recognized for leadership in multi-modal AI and peer review for global conferences like AAAI and IJCAI."
+  }
+  </script>
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}" />

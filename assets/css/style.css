@@ -264,6 +264,49 @@ li { margin: 8px 0; }
   margin-bottom: 18px;
 }
 
+.section-subtitle {
+  margin-top: 0;
+  color: var(--muted);
+  max-width: 860px;
+}
+
+.contribution-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.contribution-item h3,
+.callout h3 {
+  margin-top: 0;
+}
+
+.engagement-table {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  margin-top: 16px;
+}
+
+.engagement-row {
+  display: grid;
+  grid-template-columns: 120px minmax(220px, 1.1fr) minmax(0, 1.4fr);
+  gap: 16px;
+  padding: 14px 16px;
+  border-top: 1px solid var(--border);
+}
+
+.engagement-row:first-child {
+  border-top: 0;
+}
+
+.engagement-head {
+  font-weight: 700;
+  background: var(--accent-soft);
+}
+
 .kv {
   display: grid;
   grid-template-columns: 170px 1fr;
@@ -292,7 +335,8 @@ li { margin: 8px 0; }
   .profile-page,
   .hero,
   .card-grid,
-  .kv {
+  .kv,
+  .engagement-row {
     grid-template-columns: 1fr;
   }
 
