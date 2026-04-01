@@ -13,6 +13,7 @@ permalink: /service/
 - [The 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2026)](https://www.pakdd2026.org/program-committee)
 - [International Joint Conference on Artificial Intelligence (IJCAI 2026)](https://2026.ijcai.org/)
 - [IEEE International Conference on AI-Driven Smart Systems and Ubiquitous Computing (ICAUC 2026)](https://guauc.com/)
+- [PLOS ONE - Editor](https://journals.plos.org/plosone/)
 
 ### Conference Reviewer
 

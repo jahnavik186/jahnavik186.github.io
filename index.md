@@ -7,9 +7,9 @@ title: Home
   <aside class="profile-sidebar">
     <p class="eyebrow">Professional Bio</p>
     <h1>Jahnavi Kachhia</h1>
-    <p class="lead">
-      Global Technical Expert in AI for Healthcare and National Security, shaping the future
-      of responsible AI across research, product development, and public engagement.
+      <p class="lead">
+      Global AI and machine learning leader translating research into production-scale impact
+      across healthcare, consumer platforms, and safety-critical systems.
     </p>
 
     <img src="{{ '/assets/img/profile.jpeg' | relative_url }}" alt="Portrait of Jahnavi Kachhia" class="profile-photo" />
@@ -19,9 +19,9 @@ title: Home
       <ul class="compact-list">
         <li>Global Technical Expert in AI for Healthcare and National Security</li>
         <li>Led Meta Ray-Ban AI features including Reminders and Visual Tracking</li>
-        <li>10+ scholarly articles and 40+ citations</li>
+        <li>13 scholarly articles and 87 citations</li>
         <li>20+ expert judging and review panels across AI and healthcare</li>
-        <li>{{ site.profiles.github_repositories }} GitHub repositories</li>
+        <li>{{ site.profiles.github_repositories }} GitHub repositories and {{ site.profiles.github_followers }} GitHub followers</li>
         <li>Bridging theory and real-world medical application through responsible AI</li>
       </ul>
     </div>
@@ -46,7 +46,6 @@ title: Home
       <a href="#service">Review</a>
       <a href="#speaking">Engagements</a>
       <a href="#media">Commentary</a>
-      <a href="#analytics">Analytics</a>
       <a href="#certifications">Certifications</a>
     </nav>
   </aside>
@@ -55,27 +54,23 @@ title: Home
     <section id="about" class="content-block">
       <h2>Professional Header &amp; Bio</h2>
       <p>
-        Jahnavi Kachhia is a Global Technical Expert in AI for Healthcare and National Security
-        whose work sits at the intersection of advanced machine learning research, high-stakes
-        product delivery, and responsible deployment. Her portfolio is defined by a consistent
-        focus on shaping the future of responsible AI while bridging the gap between theory and
-        real-world medical application.
+        Jahnavi Kachhia is a global AI and machine learning leader with 10+ years of experience
+        building scalable, production-grade systems that serve millions of users across healthcare
+        and consumer platforms. She specializes in translating advanced AI research into real-world
+        impact, with expertise in generative AI, predictive systems, and end-to-end ML
+        infrastructure.
       </p>
       <p>
-        She contributed to the development of Meta Ray-Ban AI capabilities including Reminders and
-        Visual Tracking, work referenced by
-        <a href="https://www.theverge.com/2024/9/25/24253712/meta-rayban-ai-features-reminders-translation-transparent-style">The Verge</a>
-        and
-        <a href="https://techcrunch.com/2024/09/25/meta-updates-ray-ban-smart-glasses-with-real-time-ai-video-reminders-and-qr-code-scanning/">TechCrunch</a>
-        as part of the broader shift toward practical, multimodal wearable intelligence. In parallel,
-        she has contributed to more than 10 scholarly articles with 40+ citations spanning healthcare AI,
-        signal analysis, and intelligent systems research.
+        Her work focuses on designing reliable, explainable AI for safety-critical environments,
+        including large-scale, real-time systems where performance and trust are essential. She has
+        contributed to AI platforms deployed globally, operating at scale in user-facing and
+        clinical contexts.
       </p>
       <p>
-        Beyond product and research contributions, she serves on 20+ expert judging and review panels
-        for organizations and events connected to IEEE, AAAI, MIT, and other global AI ecosystems.
-        Her work is grounded in translating technical rigor into systems that operate effectively in
-        clinical and mission-driven environments where trust, interpretability, and safety matter.
+        Jahnavi's research includes peer-reviewed publications across IEEE and international venues,
+        with 90+ citations across domains such as biomedical AI, brain-computer interfaces, and
+        applied machine learning. She is also an active open-source contributor, with projects
+        achieving 200+ GitHub forks and 100K+ Docker downloads, reflecting strong global adoption.
       </p>
     </section>
 
@@ -83,20 +78,20 @@ title: Home
       <h2>Pioneering Research &amp; Original Contributions</h2>
       <div class="stat-grid">
       <div class="stat-card">
-        <strong>40+</strong>
+        <strong>87</strong>
         <span>Scholarly citations</span>
       </div>
       <div class="stat-card">
-        <strong>10+</strong>
+        <strong>13</strong>
         <span>Scholarly articles</span>
       </div>
       <div class="stat-card">
-        <strong>20+</strong>
-        <span>Expert review panels</span>
+        <strong>10</strong>
+        <span>GitHub repositories</span>
       </div>
       <div class="stat-card">
-        <strong>Global</strong>
-        <span>Industry and research reach</span>
+        <strong>37</strong>
+        <span>GitHub followers</span>
       </div>
       </div>
       <div class="contribution-list">
@@ -130,7 +125,7 @@ title: Home
         <li><a href="{{ site.profiles.orcid }}">ORCID</a> - persistent researcher identity and scholarly record linkage</li>
       </ul>
       <div class="kv">
-        <div>GitHub Stats</div><div>{{ site.profiles.github_repositories }} repositories, {{ site.profiles.github_total_forks }} total forks, {{ site.profiles.github_following }} following, {{ site.profiles.github_stars }} starred repositories</div>
+        <div>GitHub Stats</div><div>{{ site.profiles.github_profile_repositories }} repositories, {{ site.profiles.github_profile_followers }} followers, {{ site.profiles.github_following }} following, {{ site.profiles.github_stars }} starred repositories</div>
       </div>
     </section>
 
@@ -145,6 +140,7 @@ title: Home
         <li><strong>Expert Jury:</strong> <a href="https://2026.ijcai.org/">IJCAI 2026</a></li>
         <li><strong>Expert Jury:</strong> <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025 workshops and review tracks</a></li>
         <li><a href="https://www.pakdd2026.org/program-committee">PAKDD 2026</a></li>
+        <li><strong>Editor:</strong> <a href="https://journals.plos.org/plosone/">PLOS ONE</a></li>
       </ul>
 
       <h3>Innovation Panels</h3>
@@ -208,24 +204,6 @@ title: Home
         <li><a href="https://www.usatoday.com/story/tech/2024/12/16/meta-ray-ban-smart-glasses-live-translation/77035096007/">USA Today: Meta Ray-Ban smart glasses live translation</a></li>
       </ul>
       <p><a href="{{ '/media/' | relative_url }}">View the full media page</a></p>
-    </section>
-
-    <section id="analytics" class="content-block">
-      <h2>Traffic and Profile Link Tracking</h2>
-      <p>
-        This website tracks incoming traffic through Google Analytics 4, including source, medium,
-        campaign, geography, device type, and page-level visits.
-      </p>
-      <p>
-        It also tracks outbound clicks to key external profiles such as Google Scholar, GitHub,
-        Docker Hub, LinkedIn, and email links so I can understand which profile destinations
-        visitors use most often.
-      </p>
-      <p>
-        External platforms such as LinkedIn, Google Scholar, ResearchGate, and ORCID do not provide
-        this website with their internal profile-view counts, so those exact visitor numbers cannot
-        be shown here directly.
-      </p>
     </section>
 
     <section id="certifications" class="content-block">
