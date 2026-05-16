@@ -19,9 +19,11 @@ title: Home
       <ul class="compact-list">
         <li>Global Technical Expert in AI for Healthcare and National Security</li>
         <li>Led Meta Ray-Ban AI features including Reminders and Visual Tracking</li>
-        <li>13 scholarly articles and 87 citations</li>
+        <li>{{ site.profiles.scholar_articles }} scholarly articles and {{ site.profiles.scholar_citations }} citations</li>
         <li>20+ expert judging and review panels across AI and healthcare</li>
         <li>{{ site.profiles.github_repositories }} GitHub repositories and {{ site.profiles.github_followers }} GitHub followers</li>
+        <li>{{ site.profiles.docker_images }} Docker images with {{ site.profiles.docker_downloads }} downloads</li>
+        <li>Kaggle Dataset Master ranked {{ site.profiles.kaggle_dataset_rank }} ({{ site.profiles.kaggle_dataset_percentile }})</li>
         <li>Bridging theory and real-world medical application through responsible AI</li>
       </ul>
     </div>
@@ -32,6 +34,8 @@ title: Home
         <li><a href="{{ site.profiles.scholar }}">Google Scholar</a></li>
         <li><a href="{{ site.profiles.github }}">GitHub</a></li>
         <li><a href="{{ site.profiles.docker }}">Docker Hub Profile</a></li>
+        <li><a href="{{ site.profiles.kaggle }}">Kaggle</a></li>
+        <li><a href="{{ site.profiles.academia }}">Academia.edu</a></li>
         <li><a href="{{ site.profiles.linkedin }}">LinkedIn</a></li>
         <li><a href="{{ site.profiles.researchgate }}">ResearchGate</a></li>
         <li><a href="{{ site.profiles.orcid }}">ORCID</a></li>
@@ -68,9 +72,9 @@ title: Home
       </p>
       <p>
         Jahnavi's research includes peer-reviewed publications across IEEE and international venues,
-        with 90+ citations across domains such as biomedical AI, brain-computer interfaces, and
+        with {{ site.profiles.scholar_citations }} citations across domains such as biomedical AI, brain-computer interfaces, and
         applied machine learning. She is also an active open-source contributor, with projects
-        achieving 200+ GitHub forks and 100K+ Docker downloads, reflecting strong global adoption.
+        achieving {{ site.profiles.github_total_forks }} GitHub forks and {{ site.profiles.docker_downloads }} Docker downloads, reflecting strong global adoption.
       </p>
     </section>
 
@@ -78,20 +82,36 @@ title: Home
       <h2>Pioneering Research &amp; Original Contributions</h2>
       <div class="stat-grid">
       <div class="stat-card">
-        <strong>87</strong>
+        <strong>{{ site.profiles.scholar_citations }}</strong>
         <span>Scholarly citations</span>
       </div>
       <div class="stat-card">
-        <strong>13</strong>
+        <strong>{{ site.profiles.scholar_articles }}</strong>
         <span>Scholarly articles</span>
       </div>
       <div class="stat-card">
-        <strong>10</strong>
+        <strong>{{ site.profiles.github_repositories }}</strong>
         <span>GitHub repositories</span>
       </div>
       <div class="stat-card">
-        <strong>37</strong>
+        <strong>{{ site.profiles.github_followers }}</strong>
         <span>GitHub followers</span>
+      </div>
+      <div class="stat-card">
+        <strong>{{ site.profiles.github_total_forks }}</strong>
+        <span>GitHub forks</span>
+      </div>
+      <div class="stat-card">
+        <strong>{{ site.profiles.docker_images }}</strong>
+        <span>Docker images</span>
+      </div>
+      <div class="stat-card">
+        <strong>{{ site.profiles.docker_downloads }}</strong>
+        <span>Docker downloads</span>
+      </div>
+      <div class="stat-card">
+        <strong>{{ site.profiles.kaggle_dataset_rank }}</strong>
+        <span>Kaggle Dataset Master rank ({{ site.profiles.kaggle_dataset_percentile }})</span>
       </div>
       </div>
       <div class="contribution-list">
@@ -120,12 +140,16 @@ title: Home
         <li><a href="{{ site.profiles.scholar }}">Google Scholar</a> - citation record, publication visibility, and scholarly profile</li>
         <li><a href="{{ site.profiles.github }}">GitHub</a> - code repositories, project visibility, and technical portfolio</li>
         <li><a href="{{ site.profiles.docker }}">Docker Hub</a> - published containers and applied machine learning artifact visibility</li>
+        <li><a href="{{ site.profiles.kaggle }}">Kaggle</a> - dataset visibility, competitions profile, and Dataset Master ranking</li>
+        <li><a href="{{ site.profiles.academia }}">Academia.edu</a> - academic affiliation and publication visibility</li>
         <li><a href="{{ site.profiles.linkedin }}">LinkedIn</a> - professional profile, speaking visibility, and career-facing public presence</li>
         <li><a href="{{ site.profiles.researchgate }}">ResearchGate</a> - academic profile visibility and research discovery</li>
         <li><a href="{{ site.profiles.orcid }}">ORCID</a> - persistent researcher identity and scholarly record linkage</li>
       </ul>
       <div class="kv">
-        <div>GitHub Stats</div><div>{{ site.profiles.github_profile_repositories }} repositories, {{ site.profiles.github_profile_followers }} followers, {{ site.profiles.github_following }} following, {{ site.profiles.github_stars }} starred repositories</div>
+        <div>GitHub Stats</div><div>{{ site.profiles.github_profile_repositories }} repositories, {{ site.profiles.github_profile_followers }} followers, {{ site.profiles.github_total_forks }} forks, {{ site.profiles.github_following }} following, {{ site.profiles.github_stars }} starred repositories</div>
+        <div>Docker Stats</div><div>{{ site.profiles.docker_images }} images, {{ site.profiles.docker_downloads }} downloads</div>
+        <div>Kaggle Stats</div><div>Dataset Master ranked {{ site.profiles.kaggle_dataset_rank }} ({{ site.profiles.kaggle_dataset_percentile }})</div>
       </div>
     </section>
 
@@ -198,10 +222,16 @@ title: Home
       <h2>Media Mentions</h2>
       <h3>Industry Commentary &amp; Analysis</h3>
       <ul>
+        <li><a href="https://alltechmagazine.com/ai-that-doesnt-collapse-under-pressure/">All Tech Magazine: AI That Doesnt Collapse Under Pressure</a></li>
         <li><a href="https://www.theverge.com/2024/9/25/24253712/meta-rayban-ai-features-reminders-translation-transparent-style">The Verge: Meta's Ray-Ban will now remember for you</a></li>
         <li><a href="https://gizmodo.com/the-ray-ban-meta-smart-glasses-will-now-remind-you-to-restock-the-fridge-2000502802">Gizmodo: Ray-Ban Meta Smart Glasses and reminder features</a></li>
         <li><a href="https://techcrunch.com/2024/09/25/meta-updates-ray-ban-smart-glasses-with-real-time-ai-video-reminders-and-qr-code-scanning/?guccounter=1&guce_referrer=aHR0cHM6Ly9sLndvcmtwbGFjZS5jb20v&guce_referrer_sig=AQAAAJT0VqyFgPGtwVMR2aK02q6dUTjTSNLHUeJFJUxak0gdupbaMwq7obrxzgmlKFx18IeeFyep7fApxKx7GS6yvL9S3_nHBTkIYOS3gsodbo0YhQfSGBQVjIN5gyabDAKQQWpKxPr30Q7HSqZN8tPjGh6bigIxZnM_d3ukpT7vYFLv">TechCrunch: Meta updates Ray-Ban smart glasses</a></li>
         <li><a href="https://www.usatoday.com/story/tech/2024/12/16/meta-ray-ban-smart-glasses-live-translation/77035096007/">USA Today: Meta Ray-Ban smart glasses live translation</a></li>
+      </ul>
+      <h3>Videos</h3>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=dzLzszUNih0">YouTube: Featured AI video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=bgth6IBc9VQ">YouTube: Featured AI video</a></li>
       </ul>
       <p><a href="{{ '/media/' | relative_url }}">View the full media page</a></p>
     </section>

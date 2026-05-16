@@ -11,10 +11,17 @@ and real-world deployment. Her profile combines scholarly output, community lead
 public speaking, and applied AI development across healthcare and intelligent systems.
 
 She has authored and contributed to work in machine learning, deep learning, biomedical signal analysis,
-radar signal analysis, antenna design, diabetes screening, renewable energy systems, and electric vehicle
-infrastructure optimization. Her publication record includes peer-reviewed papers indexed through
+radar signal analysis, antenna design, cardiovascular risk screening, diabetes screening, cloud security,
+edge-cloud orchestration, renewable energy systems, and electric vehicle infrastructure optimization.
+Her publication record includes peer-reviewed papers indexed through
 [Google Scholar]({{ site.profiles.scholar }}), where her profile currently reflects
 {{ site.profiles.scholar_citations }} citations across {{ site.profiles.scholar_articles }} articles.
+
+Her open-source and public data footprint includes {{ site.profiles.github_repositories }} GitHub repositories,
+{{ site.profiles.github_total_forks }} GitHub forks, {{ site.profiles.github_followers }} GitHub followers,
+{{ site.profiles.docker_images }} Docker images with {{ site.profiles.docker_downloads }} downloads, and a
+[Kaggle]({{ site.profiles.kaggle }}) Dataset Master ranking of {{ site.profiles.kaggle_dataset_rank }}
+({{ site.profiles.kaggle_dataset_percentile }}).
 
 In addition to research, she serves the technical community through program committee appointments,
 conference reviewing, and hackathon judging. Her service spans venues and workshops connected to artificial
@@ -38,6 +45,8 @@ and a [Women in Tech Network global ambassador listing](https://www.womentech.ne
 - [Google Scholar]({{ site.profiles.scholar }})
 - [GitHub]({{ site.profiles.github }})
 - [Docker Hub Profile]({{ site.profiles.docker }})
+- [Kaggle]({{ site.profiles.kaggle }})
+- [Academia.edu]({{ site.profiles.academia }})
 - [LinkedIn]({{ site.profiles.linkedin }})
 - [ResearchGate]({{ site.profiles.researchgate }})
 - [ORCID]({{ site.profiles.orcid }})
@@ -49,6 +58,12 @@ and applied AI project delivery.
 - [Stanford Machine Learning](https://www.coursera.org/account/accomplishments/verify/CW8B76P6MV2P?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate&utm_content=cert_image)
 - [Getting Started with AWS Machine Learning](https://www.coursera.org/account/accomplishments/verify/RMPAXG5NBGL4?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button)
 - [NVIDIA Fundamentals of Deep Learning for Computer Vision](https://learn.nvidia.com/certificates?id=5722168cf9aa4f57b8bc6bb5fbb00c36)
+
+**Memberships**
+- IEEE Senior Membership
+- MIET
+- AI Frontier Network (AIFN)
+- WRU
 
 **Contact**
 - Email: [jahnavik186@gmail.com](mailto:jahnavik186@gmail.com)

@@ -10,16 +10,17 @@ For the full profile, citations, and article record, visit [Google Scholar]({{ s
 
 ### Scholarly Articles
 
+- [Design and Performance Analysis of Different Feeding Techniques With Micro-strip Patch Antenna](https://www.researchgate.net/profile/Amit-Patel-17/publication/281022351_DESIGN_AND_PERFORMANCE_ANALYSIS_OF_DIFFERENT_FEEDING_TECHNIQUES_WITH_MICRO-STRIP_PATCH_ANTENNA/links/55d1742a08ae6a881385edaf/DESIGN-AND-PERFORMANCE-ANALYSIS-OF-DIFFERENT-FEEDING-TECHNIQUES-WITH-MICRO-STRIP-PATCH-ANTENNA.pdf)
 - [Logarithmic slots antennas using substrate integrated waveguide](https://onlinelibrary.wiley.com/doi/full/10.1155/2015/629797)
 - [Automated Radar Signal Analysis Based on Deep Learning](https://ieeexplore.ieee.org/abstract/document/9031240)
 - [Deep Learning Enhanced BCI Technology for 3D Printing](https://ieeexplore.ieee.org/abstract/document/9298124)
 - [EEG-based Image Classification using Machine Learning Algorithms](https://ieeexplore.ieee.org/abstract/document/9375931)
-- [Design and Performance Analysis of Different Feeding Techniques With Micro-strip Patch Antenna](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWMslkYAAAAJ&citation_for_view=bWMslkYAAAAJ:IjCSPb-OGe4C)
-- [Enhancing Early Diabetes Screening Through Machine Learning and Explainable AI](https://isdfs.org/)
+- [Healthcare Predictive Analytics based on Machine Learning Techniques for Identifying Cardiovascular Risks Screening](https://ijcet.evegenis.org/index.php/ijcet/article/view/4509)
+- [A Generative AI-Driven Clinical Decision Support Framework Using Large Language Models](https://al-kindipublisher.com/index.php/jcsts/article/view/12285)
+- [Trustworthy AI in Cloud Security: Explainability, Robustness, and Regulatory Compliance Frameworks](https://ieeexplore.ieee.org/abstract/document/11484322)
+- [Cognitive AI Orchestration for Autonomous Edge-Cloud Continuums](https://www.researchgate.net/profile/Jahnavi-Kachhia-2/publication/400790981_Cognitive_AI_Orchestration_for_Autonomous_Edge-_Cloud_Continuums/links/6990b3b764ca8a38208cf814/Cognitive-AI-Orchestration-for-Autonomous-Edge-Cloud-Continuums.pdf)
+- [Enhancing Early Diabetes Screening Through Machine Learning and Explainable AI](https://ieeexplore.ieee.org/abstract/document/11459057)
 - [Hybrid Energy Harvesting and Solar Photovoltaic Systems for Electric Vehicle Infrastructure: Intelligent Energy Storage and Demand Management](https://ticresearch.com/)
-- [Deep Learning based Energy Management System for Solar Assisted Electric Vehicle Networks](https://ticresearch.com/)
-- [An Artificial Intelligence-Driven Integrated Framework for Electric Vehicle Charging Coordination in Smart Grid Environments](https://ticresearch.com/)
-- [AI-Enabled Predictive Analytics and Optimization of Renewable Energy Integration in Advanced Energy Storage Systems](https://ticresearch.com/)
 
 ### Conference Paper Presentations
 
