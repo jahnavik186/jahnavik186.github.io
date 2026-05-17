@@ -16,11 +16,11 @@ For the full profile, citations, and article record, visit [Google Scholar]({{ s
 - [Deep Learning Enhanced BCI Technology for 3D Printing](https://ieeexplore.ieee.org/abstract/document/9298124)
 - [EEG-based Image Classification using Machine Learning Algorithms](https://ieeexplore.ieee.org/abstract/document/9375931)
 - [Healthcare Predictive Analytics based on Machine Learning Techniques for Identifying Cardiovascular Risks Screening](https://ijcet.evegenis.org/index.php/ijcet/article/view/4509)
-- [A Generative AI-Driven Clinical Decision Support Framework Using Large Language Models](https://al-kindipublisher.com/index.php/jcsts/article/view/12285)
+- [A Generative AI–Driven Clinical Decision Support Framework Using Large Language Models](https://al-kindipublisher.com/index.php/jcsts/article/view/12285)
 - [Trustworthy AI in Cloud Security: Explainability, Robustness, and Regulatory Compliance Frameworks](https://ieeexplore.ieee.org/abstract/document/11484322)
-- [Cognitive AI Orchestration for Autonomous Edge-Cloud Continuums](https://www.researchgate.net/profile/Jahnavi-Kachhia-2/publication/400790981_Cognitive_AI_Orchestration_for_Autonomous_Edge-_Cloud_Continuums/links/6990b3b764ca8a38208cf814/Cognitive-AI-Orchestration-for-Autonomous-Edge-Cloud-Continuums.pdf)
+- [Cognitive AI Orchestration for Autonomous Edge-Cloud Continuums](https://ieeexplore.ieee.org/document/11507837)
 - [Enhancing Early Diabetes Screening Through Machine Learning and Explainable AI](https://ieeexplore.ieee.org/abstract/document/11459057)
-- [Hybrid Energy Harvesting and Solar Photovoltaic Systems for Electric Vehicle Infrastructure: Intelligent Energy Storage and Demand Management](https://ticresearch.com/)
+- [AI-Enabled Predictive Analytics and Optimization of Renewable Energy Integration in Advanced Energy Storage Systems](https://ticresearch.com/)
 
 ### Conference Paper Presentations
 
