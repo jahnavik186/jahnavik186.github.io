@@ -18,7 +18,7 @@ Her publication record includes peer-reviewed papers indexed through
 {{ site.profiles.scholar_citations }} citations across {{ site.profiles.scholar_articles }} articles.
 
 Her open-source and public data footprint includes {{ site.profiles.github_repositories }} GitHub repositories,
-{{ site.profiles.github_total_forks }} GitHub forks, {{ site.profiles.github_followers }} GitHub followers,
+{{ site.profiles.github_total_stars }} GitHub stars, {{ site.profiles.github_total_forks }} GitHub forks,
 {{ site.profiles.docker_images }} Docker images with {{ site.profiles.docker_downloads }} downloads, and a
 [Kaggle]({{ site.profiles.kaggle }}) Dataset Master ranking of {{ site.profiles.kaggle_dataset_rank }}
 ({{ site.profiles.kaggle_dataset_percentile }}).
@@ -27,9 +27,11 @@ In addition to research, she serves the technical community through program comm
 conference reviewing, and hackathon judging. Her service spans venues and workshops connected to artificial
 intelligence, machine learning, multimodal systems, healthcare AI, human-robot interaction, and knowledge discovery.
 
-Her public-facing work also includes invited talks and panel participation on responsible AI, generative AI,
-LLMs in healthcare, and AI-enabled decision support. This combination of research, service, and speaking
-positions her as a multidisciplinary contributor at the intersection of technical depth and practical impact.
+Her public-facing work also includes invited talks, panel participation, and technical commentary on
+responsible AI, generative AI, LLMs in healthcare, and AI-enabled decision support, including
+[All Tech Magazine coverage](https://alltechmagazine.com/ai-that-doesnt-collapse-under-pressure/).
+This combination of research, service, and speaking positions her as a multidisciplinary contributor at
+the intersection of technical depth and practical impact.
 
 Public web listings also reflect additional visibility through invited conference speaker pages,
 technical program committee acknowledgements, and community recognitions including a

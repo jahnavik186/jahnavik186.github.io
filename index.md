@@ -20,9 +20,10 @@ title: Home
         <li>Global Technical Expert in AI for Healthcare and National Security</li>
         <li>Led Meta Ray-Ban AI features including Reminders and Visual Tracking</li>
         <li>{{ site.profiles.scholar_articles }} scholarly articles and {{ site.profiles.scholar_citations }} citations</li>
-        <li>20+ expert judging and review panels across AI and healthcare</li>
-        <li>{{ site.profiles.github_repositories }} GitHub repositories and {{ site.profiles.github_followers }} GitHub followers</li>
+        <li>20+ expert judging, review, committee, and editorial roles across AI and healthcare</li>
+        <li>{{ site.profiles.github_repositories }} GitHub repositories with {{ site.profiles.github_total_stars }} stars and {{ site.profiles.github_total_forks }} forks</li>
         <li>{{ site.profiles.docker_images }} Docker images with {{ site.profiles.docker_downloads }} downloads</li>
+        <li>Industry media commentary in All Tech Magazine</li>
         <li>Kaggle Dataset Master ranked {{ site.profiles.kaggle_dataset_rank }} ({{ site.profiles.kaggle_dataset_percentile }})</li>
         <li>Bridging theory and real-world medical application through responsible AI</li>
       </ul>
@@ -58,7 +59,7 @@ title: Home
     <section id="about" class="content-block">
       <h2>Professional Header &amp; Bio</h2>
       <p>
-        Jahnavi Kachhia is a global AI and machine learning leader with 10+ years of experience
+        Jahnavi Kachhia is a global AI and machine learning leader with 8+ years of experience
         building scalable, production-grade systems that serve millions of users across healthcare
         and consumer platforms. She specializes in translating advanced AI research into real-world
         impact, with expertise in generative AI, predictive systems, and end-to-end ML
@@ -74,7 +75,7 @@ title: Home
         Jahnavi's research includes peer-reviewed publications across IEEE and international venues,
         with {{ site.profiles.scholar_citations }} citations across domains such as biomedical AI, brain-computer interfaces, and
         applied machine learning. She is also an active open-source contributor, with projects
-        achieving {{ site.profiles.github_total_forks }} GitHub forks and {{ site.profiles.docker_downloads }} Docker downloads, reflecting strong global adoption.
+        achieving {{ site.profiles.github_total_stars }} GitHub stars, {{ site.profiles.github_total_forks }} GitHub forks, and {{ site.profiles.docker_downloads }} Docker downloads, reflecting strong global adoption.
       </p>
     </section>
 
@@ -82,24 +83,28 @@ title: Home
       <h2>Pioneering Research &amp; Original Contributions</h2>
       <div class="stat-grid">
       <div class="stat-card">
-        <strong>{{ site.profiles.scholar_citations }}</strong>
-        <span>Scholarly citations</span>
-      </div>
-      <div class="stat-card">
         <strong>{{ site.profiles.scholar_articles }}</strong>
         <span>Scholarly articles</span>
+      </div>
+      <div class="stat-card">
+        <strong>{{ site.profiles.scholar_citations }}</strong>
+        <span>Scholarly citations</span>
       </div>
       <div class="stat-card">
         <strong>{{ site.profiles.github_repositories }}</strong>
         <span>GitHub repositories</span>
       </div>
       <div class="stat-card">
-        <strong>{{ site.profiles.github_followers }}</strong>
-        <span>GitHub followers</span>
+        <strong>{{ site.profiles.github_total_stars }}</strong>
+        <span>GitHub stars</span>
       </div>
       <div class="stat-card">
         <strong>{{ site.profiles.github_total_forks }}</strong>
         <span>GitHub forks</span>
+      </div>
+      <div class="stat-card">
+        <strong>{{ site.profiles.github_followers }}</strong>
+        <span>GitHub followers</span>
       </div>
       <div class="stat-card">
         <strong>{{ site.profiles.docker_images }}</strong>
@@ -147,7 +152,7 @@ title: Home
         <li><a href="{{ site.profiles.orcid }}">ORCID</a> - persistent researcher identity and scholarly record linkage</li>
       </ul>
       <div class="kv">
-        <div>GitHub Stats</div><div>{{ site.profiles.github_profile_repositories }} repositories, {{ site.profiles.github_profile_followers }} followers, {{ site.profiles.github_total_forks }} forks, {{ site.profiles.github_following }} following, {{ site.profiles.github_stars }} starred repositories</div>
+        <div>GitHub Stats</div><div>{{ site.profiles.github_profile_repositories }} repositories, {{ site.profiles.github_total_stars }} stars, {{ site.profiles.github_total_forks }} forks, {{ site.profiles.github_profile_followers }} followers</div>
         <div>Docker Stats</div><div>{{ site.profiles.docker_images }} images, {{ site.profiles.docker_downloads }} downloads</div>
         <div>Kaggle Stats</div><div>Dataset Master ranked {{ site.profiles.kaggle_dataset_rank }} ({{ site.profiles.kaggle_dataset_percentile }})</div>
       </div>
